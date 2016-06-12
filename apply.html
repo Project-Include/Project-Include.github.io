@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	depreciated 
 -->
 <html>
 			<link rel="stylesheet" href="css/custom.css" />
@@ -18,7 +16,7 @@
 		<script src="js/init.js"></script>
 		<script>
 			$(document).ready(function() {
-				
+
 				$.fn.serializeObject = function()
 				{
 				    var o = {};
@@ -35,10 +33,10 @@
 				    });
 				    return o;
 				};
-				
+
 				$(".button").click(function(){
 			      // validate and process form here
-			      
+
 					$('.error').hide();
 					  var name = $("input#name").val();
 						if (name == "") {
@@ -88,10 +86,10 @@
 					$("#summer").focus();
 					return false;
 					}
-					
+
 /*
 					if(confirm("When you press 'OK', a new e-mail message will open with the recipient, subject, and body already filled in. Attach your resume and hit send. Alternatively, copy all of the answers over to an e-mail and send it to us with your resume. ")){
-					
+
 */
 					var filledForm = JSON.stringify($('form').serializeObject());
 // 					var email = 'richardchen.1996@outlook.com';
@@ -104,7 +102,7 @@
 // 					alert("Your application is complete once you send the generated e-mail! You can press the 'APPLY' button again to regenerate the e-mail.")
 					return false;
 				})
-				
+
 			});
 			</script>
 		<noscript>
@@ -133,9 +131,9 @@
 <div class='login'>
 <form action="" method="post">
   <h2>Apply</h2>
-  
+
   <div class="resumeText">This form will automatically generate an e-mail to send to us. You will need to attach your resume to that e-mail.</div>
-  
+
   <input name='name' id='name' placeholder='Name' type='text'>
   <input name='email' id='email' placeholder='E-Mail Address' type='text'>
   <input name='year' id='year' placeholder='Year of Study' type='text'>
