@@ -790,7 +790,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #323037;
+		background-color: #4169E1;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff !important;
@@ -891,7 +891,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #f32853;
+			background-color: #4169E1;
 			color: #ffffff !important;
 		}
 
