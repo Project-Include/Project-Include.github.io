@@ -891,7 +891,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4169E1;
+			background-color: #B62D2D;
 			color: #ffffff !important;
 		}
 
@@ -899,14 +899,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #4169E1;
+				background-color:#B22222;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #4169E1;
+				background-color: #B62D2D;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
