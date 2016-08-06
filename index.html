@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Include</title>
+	<meta name="description" content="Make coding fun and accessible to everyone" />
+	<meta name="keywords" content="project include, coding, community, library, learning, computer, Java, HTML, CSS, Python" />
+	<meta name="author" content="Project Include" />
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="typed.js"></script>
+	<script>
+	  $(function(){
+	      $(".element").typed({
+	        strings: ["Build a Project", "Code Your Future."],
+	        typeSpeed: 50
+	      });
+	  });
+	</script>
+	<style type="text/css">
+		#above-the-fold {
+			height: 100vh;
+			width: 100vw;
+			position: relative;
+			background: white;
+			background-size: cover;
+		}
+
+		#logo {
+			width: 15vw;
+			position: absolute;
+			left: 5vw;
+			top: 5vw;
+			min-width: 150px;
+		}
+
+		#typed {
+			display: inline-block;
+			width: 100%;
+			font-size: 6vw;
+			color: rgb(221, 13, 24);
+			position: absolute;
+			left: 0;
+			top: 40vh;
+			text-align: center;
+			font-family: "Courier";
+			background-color: white;
+		}
+
+		#register {
+			position: absolute;
+			background-color: rgb(221, 13, 24);
+			color: white;
+			width: 200px;
+			font-size: 20px;
+			top: 60vh;
+			border: none;
+			border-radius: 5px;
+			font-family: Lato;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			left: 50vw;
+			margin-left: -220px;
+		}
+
+		#volunteer {
+			position: absolute;
+			background-color: rgb(221, 13, 24);
+			color: white;
+			width: 200px;
+			font-size: 20px;
+			top: 60vh;
+			border: none;
+			border-radius: 5px;
+			font-family: Lato;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			left: 50vw;
+			margin-left: 20px;
+		}
+
+		#register:hover, #volunteer:hover {
+			background-color: rgb(250, 13, 24);
+		}
+
+		#under-construction {
+			font-family: Lato;
+			display: inline-block;
+			width: 100%;
+			text-align: center;
+			position: absolute;
+			font-size: 15px;
+			top: calc(60vh + 70px);
+			color: rgb(221, 13, 24);
+		}
+
+		#facebook-div {
+			position: absolute;
+			top: 70vh;
+			display: inline-block;
+			width: 100vw;
+			left: 0;
+		}
+
+		#facebook {
+			display: inline-block;
+			position: absolute;
+			top: calc(50vh + 200px);
+			left: 50vw;
+			margin-left: -70px;
+		}
+
+		#twitter {
+			display: inline-block;
+			position: absolute;
+			top: calc(50vh + 200px);
+			left: 50vw;
+			margin-left: 20px;
+		}
+
+		#facebook:hover, #twitter:hover {
+			opacity: 0.5;
+		}
+	</style>
+</head>
+<body>
+	<div id="above-the-fold">
+		<img id="logo" src="logo.png" />
+		<p class="element" id="typed"></p>
+		<button onclick="window.location='http://goo.gl/forms/hSiSrZTQDrPns5gn1'" id="register">REGISTER</button>
+		<button onclick="window.location='http://goo.gl/forms/RTyS1NlpiVl97Web2'" id="volunteer">VOLUNTEER</button>
+		<p id="under-construction">Website under construction, check out our social media.</p>
+		<a id="facebook" href="https://www.facebook.com/projectincludeskule/"><img src="facebook.png" style="width:50px;"></a>
+		<a id="twitter" href="https://twitter.com/hashtag_include"><img src="twitter.png" style="width:50px;"></a>
+	</div>
+</body>
+</html>
