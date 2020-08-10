@@ -1,0 +1,40 @@
+---
+layout: default
+title: Project Include | Workshops
+permalink: /workshops/
+---
+
+<div class="fixed-header-pushdown">
+
+  {% assign volunteer-form-link = site.data.basic["volunteer-form-link"] %}
+  {% include gallery-intro-component.html
+    
+    default-img-path="../assets/gallery/homepage/1.png"
+
+    header-text="Workshops."
+
+    info-text="Project Include Workshops are single-session, standalone lessons, perfect for introducing students who are unfamiliar with computer programming to the wonders of coding. Our instructors create curriculum suitable for both elementary and secondary school levels."
+
+    btn1-text="Volunteer"
+    btn1-link=volunteer-form-link %}
+
+</div>
+
+
+<div class="container align-column">
+  <h1 class="container-title">Schedule 2019/2020.</h1>
+  <div class="schedule-container">
+    {% assign sorted-workshops = site.data.workshop-schedule | group_by: "workshop-date" | sort: "name" | reverse %}
+    {% for workshop in sorted-workshops %}
+      <div class="card">
+        <h2 class="location-name color-project-include-salmon-red">{{ workshop["items"][0]["location-name"] }}</h2>
+        <h2 class="event-date">{{ workshop["items"][0]["workshop-date"] | date: "%A %B %-d, %Y" }}</h2>
+        <h2 class="event-time">{{ workshop["items"][0]["workshop-time"] }}</h2>
+        <div class="align-row location-container flex-center">
+          <img class="map-link-img" src="{{site.baseurl}}/assets/google-maps-location-placeholder.png" alt="">
+          <a href="{{ workshop["items"][0]["location-google-maps-link"] }}" class="btn-red">Location</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
