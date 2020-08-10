@@ -1,10 +1,5 @@
-<<<<<<< HEAD:js/includes/gallery-intro-component.js
-const ROOT_IMG_DIR = "../assets/gallery/homepage/";
-const TRANSITION_DELAY_MS = 2000;
-=======
 var ROOT_IMG_DIR = "/assets/gallery/homepage/";
 var TRANSITION_DELAY_MS = 2000;
->>>>>>> development:_javascript/gallery-intro-component.js
 
 var galleryItem;
 
