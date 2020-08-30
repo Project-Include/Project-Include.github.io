@@ -1,7 +1,7 @@
 ---
 - name: Google
-  image: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.techyuga.com%2Fwp-content%2Fuploads%2F2016%2F02%2Fnew-google-logo-2015.png&f=1&nofb=1
-  link: https://sites.google.com/view/ignitecs/home
+  image: google-logo.png
+  link: https://google.ca
 - name: University of Toronto
   image: uoft-logo.png
   link: https://www.utoronto.ca/
