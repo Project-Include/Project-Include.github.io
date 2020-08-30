@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Project Include | Bootcamps
-permalink: /bootcamps/
----
+permalink: "/bootcamps/"
 
+---
 <div class="fixed-header-pushdown">
 
   {% assign volunteer-form-link = site.data.basic["volunteer-form-link"] %}
@@ -22,7 +22,7 @@ permalink: /bootcamps/
 
 
 <div class="container align-column">
-  <h1 class="container-title">Schedule 2019/2020.</h1>
+  <h1 class="container-title">Schedule 2020/2021 TBD.</h1>
   <div class="schedule-container">
     {% assign sorted-bootcamps = site.data.bootcamp-schedule | group_by: "bootcamp-date" | sort: "name" | reverse %}
     {% for bootcamp in sorted-bootcamps %}
