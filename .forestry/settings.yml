@@ -5,9 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/social.yaml
+  label: Social
+  match: "**/*"
+- type: document
   path: _data/basic.yaml
   label: Basic Info
-  match: "**/*"
 - type: document
   path: _data/network.yaml
   label: Network
