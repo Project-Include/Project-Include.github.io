@@ -1,7 +1,7 @@
 ---
 - name: Google
   image: google-logo.png
-  link: https://google.ca
+  link: https://sites.google.com/view/ignitecs/home
 - name: University of Toronto
   image: uoft-logo.png
   link: https://www.utoronto.ca/

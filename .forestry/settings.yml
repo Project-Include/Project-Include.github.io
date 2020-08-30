@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/social.yaml
   label: Social
-  match: "**/*"
 - type: document
   path: _data/basic.yaml
   label: Basic Info
