@@ -5,9 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/network.yaml
+  label: Network
+  match: "**/*"
+- type: document
+  path: _data/bootcamp-schedule.yaml
+  label: Bootcamp Schedule
+  match: "**/*"
+- type: document
   path: _data/workshop-schedule.yaml
   label: Workshop Schedule
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
