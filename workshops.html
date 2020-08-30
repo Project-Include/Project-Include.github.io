@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Project Include | Workshops
-permalink: /workshops/
----
+permalink: "/workshops/"
 
+---
 <div class="fixed-header-pushdown">
 
   {% assign volunteer-form-link = site.data.basic["volunteer-form-link"] %}
@@ -22,7 +22,7 @@ permalink: /workshops/
 
 
 <div class="container align-column">
-  <h1 class="container-title">Schedule 2019/2020.</h1>
+  <h1 class="container-title">Schedule 2020/2021 TBD.</h1>
   <div class="schedule-container">
     {% assign sorted-workshops = site.data.workshop-schedule | group_by: "workshop-date" | sort: "name" | reverse %}
     {% for workshop in sorted-workshops %}
