@@ -63,4 +63,4 @@ task("browser_sync", browser_sync);
 task("jekyll_scss", jekyll_scss);
 task("jekyll_js", jekyll_js);
 task("jekyll_build", jekyll_build);
-task("default", parallel(browser_sync));
+task("default", series(jekyll_build, browser_sync));

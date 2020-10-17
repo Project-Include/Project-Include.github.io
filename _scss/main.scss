@@ -88,13 +88,17 @@
          url('../fonts/roboto-v20-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
   }
 
+html {
+  height: unset;
+}
+
 // If the header is fixed at the top of the page, this pushdown will move all content on the page down so that it is not covered by the header
 div.fixed-header-pushdown {
       margin-top: 130px;
 }
 
 body {
-    background: $project-include-salmon-red;
+    background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(224,24,24,1) 45%, rgba(191,28,28,1) 83%); 
     display: flex;
     justify-content: center;
     position: relative;
