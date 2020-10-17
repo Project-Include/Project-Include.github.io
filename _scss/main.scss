@@ -94,7 +94,9 @@ html {
 
 // If the header is fixed at the top of the page, this pushdown will move all content on the page down so that it is not covered by the header
 div.fixed-header-pushdown {
-      margin-top: 130px;
+  margin-top: 130px;
+  position: relative;
+  width: 100%;
 }
 
 body {

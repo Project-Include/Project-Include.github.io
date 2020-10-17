@@ -1,4 +1,11 @@
 <div class="intro-container">
+  
+  {% if include.default-img-path %}
+    <div class="intro-container--gallery-container">
+      <img class="intro-container--gallery-container--gallery" src="{{ include.default-img-path }}" alt="">
+    </div>
+  {% endif %}
+
   <div class="intro-container--info-container">
     <h1 class="intro-container--info-container--header-text">{{ include.header-text }}</h1>
     <p class="intro-container--info-container--info-text">{{ include.info-text }}</p>
@@ -15,10 +22,4 @@
     </div>
 
   </div>
-
-  {% if include.default-img-path %}
-    <div class="intro-container--gallery-container">
-      <img class="intro-container--gallery-container--gallery" src="{{ include.default-img-path }}" alt="">
-    </div>
-  {% endif %}
 </div>

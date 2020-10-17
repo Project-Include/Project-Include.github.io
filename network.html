@@ -4,14 +4,10 @@ title: Project Include | Network
 permalink: /network/
 ---
 
-<div class="fixed-header-pushdown">
+{% include text-intro-component.html
+  header-text="Our Network."
 
-  {% include text-intro-component.html
-    header-text="Our Network."
-
-    info-text="We are forever grateful for our partners and sponsors who have helped us along our journey. Any contribution, big or small, is greatly appreciated."
-  %}
-
-</div>
+  info-text="We are forever grateful for our partners and sponsors who have helped us along our journey. Any contribution, big or small, is greatly appreciated"
+%}
 
 {% include network-card-component.html %}

@@ -4,41 +4,38 @@ title: Project Include | Services
 permalink: /services/
 ---
 
-<div class="fixed-header-pushdown">
+{% assign volunteer-form-link = site.data.basic["volunteer-form-link"] %}
+{% include gallery-intro-component.html
+  
+  default-img-path="../assets/gallery/homepage/1.png"
 
-  {% assign volunteer-form-link = site.data.basic["volunteer-form-link"] %}
-  {% include gallery-intro-component.html
-    
-    default-img-path="../assets/gallery/homepage/1.png"
+  header-text="What We Do"
 
-    header-text="What We Do."
+  info-text="We partner with schools and libraries in the GTA to deliver coding workshops and bootcamps"
 
-    info-text="We partner with schools and libraries in the GTA to deliver coding workshops and bootcamps."
+  btn1-text="Volunteer"
+  btn1-link=volunteer-form-link %}
 
-    btn1-text="Volunteer"
-    btn1-link=volunteer-form-link %}
-
-</div>
-
-{% include major-info-text-component.html
-   
-  header-text="Project based curriculum."
-
-  text="Our curriculum emphasizes learning by doing, and we send our students home with projects they have built to show their friends and family." %}
-
-<div class="container align-column">
-  <h1 class="container-title">Workshops and bootcamps.</h1>
-  <div class="services-container align-row flex-space-between">
-    <div class="single-column-container card">
-      <h3 class="single-column-title color-project-include-salmon-red">Workshops</h3>
-      <p class="single-column-text">"We have an amazing curriculum planned for this year. The locations and schedule are coming soon!"</p>
-      <a href="/workshops" class="btn-red">Workshops</a>
-    </div>
-
-    <div class="single-column-container card">
-      <h3 class="single-column-title color-project-include-salmon-red">Bootcamps</h3>
-      <p class="single-column-text">"We have an amazing curriculum planned for this year. The locations and schedule are coming soon!"</p>
-      <a href="/bootcamps" class="btn-red">Bootcamps</a>
+  
+  {% include major-info-text-component.html
+      
+    header-text="Project based curriculum."
+  
+    text="Our curriculum emphasizes learning by doing, and we send our students home with projects they have built to show their friends and family" %}
+  
+  <div class="container align-column">
+    <h1 class="container-title">Workshops and bootcamps.</h1>
+    <div class="services-container align-row flex-space-between">
+      <div class="single-column-container card">
+        <h3 class="single-column-title color-project-include-salmon-red">Workshops</h3>
+        <p class="single-column-text">"We have an amazing curriculum planned for this year. The locations and schedule are coming soon!"</p>
+        <a href="/workshops" class="btn-red">Workshops</a>
+      </div>
+  
+      <div class="single-column-container card">
+        <h3 class="single-column-title color-project-include-salmon-red">Bootcamps</h3>
+        <p class="single-column-text">"We have an amazing curriculum planned for this year. The locations and schedule are coming soon!"</p>
+        <a href="/bootcamps" class="btn-red">Bootcamps</a>
+      </div>
     </div>
   </div>
-</div>
