@@ -18,7 +18,7 @@
 
 * {
     font-family: "Roboto";
-    color: white;
+    color: black;
 }
 
 /* roboto-300 - latin */
@@ -100,7 +100,7 @@ div.fixed-header-pushdown {
 }
 
 body {
-    background: linear-gradient(360deg, rgba(208,203,203,1) 0%, rgba(247,113,103,1) 30%);
+    background-color:  rgba(247,113,103,1);
     display: flex;
     justify-content: center;
     position: relative;
@@ -111,7 +111,12 @@ div.site {
     flex-direction: column;
     align-items: center;
     position: relative;
-    width: 68em;
+    width: 70em;
+    background-color: #fbf2ea;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 @media (max-width:320px)  {}
@@ -120,7 +125,6 @@ div.site {
 @media (max-width:1000px) { 
   div.site {
     max-width: 95%;
-    margin: 15px;
   }
 
   div.fixed-header-pushdown {

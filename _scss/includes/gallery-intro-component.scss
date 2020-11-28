@@ -35,16 +35,16 @@ div.intro-container--info-container {
           font-weight: 500;
           font-size: 1.3em;
           text-decoration: none;
-          color: white;
-          border: 2px solid white;
+          color: rgba(247,113,103,1);;
+          border: solid 2px rgba(247,113,103,1);
           transition: all 0.25s;
           text-align: center;
           flex-grow: 1;
   
           &:hover {
               cursor: pointer;
-              background-color: white;
-              color: $project-include-salmon-red;
+              background-color: rgba(247,113,103,1);
+              color: white;
               transition: all 0.25s;
           }
 
@@ -61,7 +61,6 @@ div.intro-container--gallery-container {
       height: auto;
       object-fit: contain;
       object-position: center center;
-      border-radius: 6px;
   }    
 }
 
