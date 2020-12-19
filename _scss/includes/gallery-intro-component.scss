@@ -35,15 +35,15 @@ div.intro-container--info-container {
           font-weight: 500;
           font-size: 1.3em;
           text-decoration: none;
-          color: #de5757;;
-          border: solid 2px #de5757;
+          color: #ff5757;;
+          border: solid 2px #ff5757;
           transition: all 0.25s;
           text-align: center;
           flex-grow: 1;
   
           &:hover {
               cursor: pointer;
-              background-color: #de5757;
+              background-color: #ff5757;
               color: white;
               transition: all 0.25s;
           }
