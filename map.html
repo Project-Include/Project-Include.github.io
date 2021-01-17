@@ -4,11 +4,14 @@ title: Project Include | Where we Go
 permalink: /map/
 ---
 
-{% include text-intro-component.html
-  header-text="Where we Go."
+{% include gallery-intro-component.html
+  
+  default-img-path="./assets/where-we-go-jan-2021.png"
+
+  header-text="Where We Go."
 
   info-text="Our workshops and bootcamps run at a variety of locations across the Greater Toronto Area (GTA). Check out the communities in which we have made an impact"
-%}  
+%}
 
 <div class="map-header-cover">
   <iframe src="{{ site.data.basic.google-gta-map-link }}}"></iframe>

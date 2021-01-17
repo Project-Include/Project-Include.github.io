@@ -4,17 +4,33 @@ title: Project Include | Services
 permalink: /services/
 ---
 
-{% assign volunteer-form-link = site.data.basic["volunteer-form-link"] %}
 {% include gallery-intro-component.html
   
-  default-img-path="../assets/gallery/homepage/1.png"
-
+  default-img-path="./assets/our-programs-jan-2021.png"
+  
   header-text="What We Do"
-
-  info-text="We partner with schools and libraries in the GTA to deliver coding workshops and bootcamps"
-
+  
+  info-text="We partner with schools and libraries in the GTA to deliver coding workshops, bootcamps, mini-courses and fundraising campaigns aimed at creating the needed spark to ignite a potential interest in technology, especially in local and global communities where opportunities are not presently accessible."
+  
   btn1-text="Volunteer"
   btn1-link=volunteer-form-link %}
+  
+  <!-- <div class="intro-container">
+    
+    <div class="intro-container--gallery-container">
+      <img class="intro-container--gallery-container--gallery" src="{{site.baseurl}}/assets/pi-website-banner-nov-2020.png" alt="">
+    </div>
+    
+    <div class="intro-container--info-container" id="cont">
+      <h1 class="intro-container--info-container--header-text">What We Do</h1>
+      <p class="intro-container--info-container--info-text">We partner with schools and libraries in the GTA to deliver coding workshops, bootcamps, mini-courses and fundraising campaigns aimed at creating the needed spark to ignite a potential interest in technology, especially in local and global communities where opportunities are not presently accessible.</p>
+      
+      <div class="btn-wrap">
+        <a href="{{ site.data.basic["volunteer-form-link"] }}" class="intro-container--info-container--btn">Volunteer</a>
+      </div>
+  
+    </div>
+  </div> -->
 
   
   {% include major-info-text-component.html
