@@ -1,0 +1,23 @@
+.hamburgerMenuButton {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.bar {
+  width: 25px;
+  height: 2px;
+  background: rgb(84, 87, 90);
+  transition: 0.3s ease-in-out;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .hamburgerMenuButton {
+    display: flex;
+  }
+}

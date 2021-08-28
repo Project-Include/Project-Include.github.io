@@ -1,0 +1,11 @@
+.brandIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.brandIcon svg {
+  height: 42px;
+  width: auto;
+}

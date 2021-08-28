@@ -1,0 +1,29 @@
+.header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  max-width: 1200px;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+@media screen and (min-width: 767px) {
+  .header {
+    height: 60px;
+  }
+}
