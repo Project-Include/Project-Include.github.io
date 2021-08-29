@@ -1,9 +1,9 @@
 import React, { ReactNode } from 'react';
-import styled from 'styled-components';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
+import styles from './MainLayout.module.css';
 
 type Props = {
   children: ReactNode | ReactNode[];
@@ -12,13 +12,9 @@ type Props = {
 const MainLayout: React.FC<Props> = ({ children }): JSX.Element => (
   <>
     <Header />
-    <StyledChildrenContainer>{children}</StyledChildrenContainer>
-    {/* <Footer /> */}
+    <div className={styles.childrenContainer}>{children}</div>
+    <Footer />
   </>
 );
 
 export default MainLayout;
-
-const StyledChildrenContainer = styled.div`
-  margin-top: 60px;
-`;

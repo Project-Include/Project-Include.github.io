@@ -1,0 +1,11 @@
+.socialMediaLinksWrapper {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 767px) {
+  .socialMediaLinksWrapper {
+    margin: 20px auto;
+  }
+}

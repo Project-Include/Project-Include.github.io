@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 
 import Link from '@/components/Link';
 import Button from '@/components/Button';
-import { HamburgerMenuButton } from './components';
+
+import HamburgerMenuButton from './components/HamburgerMenuButton';
 
 import styles from './Menu.module.css';
 
