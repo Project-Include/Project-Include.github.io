@@ -15,7 +15,7 @@
 
   list-style: none;
   background-color: #fff;
-  padding: 20px 0;
+  padding: 0;
 }
 
 .menu ul li {
@@ -37,6 +37,7 @@
     top: 60px;
     left: 0;
 
+    padding: 20px 0;
     padding-left: 0;
     padding-bottom: 30px;
 
